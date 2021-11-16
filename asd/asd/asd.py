@@ -52,3 +52,45 @@ for x in szamok:
         max1=x
 print(max1)
 print(max(szamok))
+
+#Feladat:
+#számok átlaga
+szamok=[9,36,27,31,75,63,41,69,24,45]
+db=0
+for x in szamok:
+   db=db+1
+print(sum(szamok)/db)
+print(sum(szamok))
+
+#Legkisebb
+min1=1000
+for x in szamok:
+    if x<min1:
+        min1=x
+print(min1)
+
+#Legnagyobb
+max1=-1000
+for x in szamok:
+    if x>max1:
+        max1=x
+print(max1)
+#van páros?
+paros=False
+for x in szamok:
+    if x%2==0:
+        paros=True
+        print(x)
+print(paros)
+#50-nél nagyobbak összege
+nagyobb=0
+for x in szamok:
+   if x>50:
+       nagyobb=nagyobb+x
+print(nagyobb)
+#9-esek száma
+szam=0
+for x in szamok:
+    if x==9:
+        szam=szam+1
+print(szam)
