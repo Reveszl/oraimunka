@@ -32,3 +32,11 @@ for x in szamok:
     if x%2==0:
         osszeg=osszeg+x
 print(osszeg)
+
+#minimum kiválasztás tétele
+print("minimum kiválasztás tétele")
+min1=1000
+for x in szamok:
+    if x<min1:
+        min1=x
+print(min(szamok))
