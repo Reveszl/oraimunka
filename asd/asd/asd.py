@@ -22,4 +22,13 @@ db=0
 for x in szamok:
     if x==3:
         db=db+1;
+print("Ez a hármasok darabszáma")
 print(db)
+
+#feltételes összegzés csak a páros számokat összegzem
+print("A páros számok összege: ")
+osszeg=0
+for x in szamok:
+    if x%2==0:
+        osszeg=osszeg+x
+print(osszeg)
