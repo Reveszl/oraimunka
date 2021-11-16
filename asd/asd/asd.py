@@ -39,4 +39,16 @@ min1=1000
 for x in szamok:
     if x<min1:
         min1=x
+print(min1)
 print(min(szamok))
+
+#maximum kiválasztás tétele
+
+print("maximum kiválasztás tétele")
+
+max1=-1000
+for x in szamok:
+    if x>max1:
+        max1=x
+print(max1)
+print(max(szamok))
